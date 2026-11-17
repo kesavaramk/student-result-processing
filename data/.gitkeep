@@ -1,0 +1,3 @@
+# This file ensures the data/ directory is tracked by Git even though the
+# generated students.json files are git-ignored. The application writes its
+# saved records to data/students.json at runtime.

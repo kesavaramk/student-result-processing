@@ -1,0 +1,27 @@
+# Compiled binary produced by `go build`
+/student-result-processing
+/student-result-processing.exe
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Runtime data file written by the application (keeps the data/ folder via .gitkeep)
+data/*.json
+
+# Test binary, coverage and profiling output
+*.test
+*.out
+coverage.txt
+profile.out
+
+# Go workspace files (not used here but commonly added)
+go.work
+go.work.sum
+
+# Editor / OS files
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
